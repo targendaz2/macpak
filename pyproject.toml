@@ -1,0 +1,22 @@
+[project]
+name = "macpak"
+version = "1.0.0"
+authors = [
+  { name="David G Rosenberg", email="david@dgrdev.com" },
+]
+description = "A Python framework to create macOS packages."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Information Technology",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Topic :: System :: Software Distribution",
+    "Topic :: System :: Systems Administration",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
